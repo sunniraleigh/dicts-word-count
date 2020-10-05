@@ -1,7 +1,7 @@
-def count_word_occurence(file_path):
+def count_word_occurence(filename):
     """ Counts and prints the occurence of each word in a file."""
     # open a file
-    file = open(file_path)
+    file = open(filename)
 
     # define empty dictionary
     word_counts = {}
@@ -19,5 +19,5 @@ def count_word_occurence(file_path):
     for word in word_counts:
         print(word, word_counts[word]) # print each word and its occurence
 
-count_word_occurence("test.txt")
+#count_word_occurence("test.txt")
 #count_word_occurence("twain.txt")
